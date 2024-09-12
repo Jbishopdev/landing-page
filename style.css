@@ -13,14 +13,14 @@ a {
     font-size: 18px;
 }
 
-.hero-button {
+button {    
     background-color: #3882F6;
-    color: #E5E7EB;
     height: 30px;
     width: 120px;
     border: none;
     border-radius: 5px;
     font-weight: bold;
+    color: #E5E7EB;
 }
 
 .header {
@@ -137,6 +137,9 @@ a {
 
 .quote .quote-credit {
     align-self: flex-end;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 26px;
 }
 
 .call-to-action-wrapper {
@@ -150,9 +153,33 @@ a {
 
 .call-to-action {
     background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     border-radius: 10px;
-    width: 1000px;
+    width: 1100px;
     height: 125px;
+}
+
+.call-to-action-text h1 {
+    margin-bottom: 0;
+    color: white;
+    font-size: 28px;
+}
+
+.call-to-action-text p {
+    margin-top: 0;
+    color: white;
+}
+
+.call-to-action-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up {
+    border: 2px solid white;
 }
 
 
