@@ -15,8 +15,12 @@ a {
 
 .hero-button {
     background-color: #3882F6;
-    height: 20px;
-    width: 100px;
+    color: #E5E7EB;
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 .header {
