@@ -1,8 +1,10 @@
 body {
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     background-color: #1F2937;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 a {
@@ -15,6 +17,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    height: 200px;
 }
 
 .header-links {
@@ -27,3 +30,35 @@ a {
     font-size: 24px;
     color: #F9FAF8;
 }
+
+.hero-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+
+.hero-image {
+    display: flex;
+    height: 250px;
+    width: 500px;
+    border: 1px solid wheat;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 400px;
+    margin-top: 0;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    width: 300px;
+    margin-bottom: 0;
+}
+
